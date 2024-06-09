@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>جامعة شقراء - الصفحة الرئيسية</title>
+  <style>
+    /* عشان نحدد الأنماط والتنسيقات */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #05a068;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      display: flex; 
+      justify-content: space-between; 
+      align-items: center;
+      background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYoOMJPZ_RxwQIYp94c6Ll58swG6k4QqLbiEpGhhHou3XSFCB9CbS1qMEUbPkJ8uNNtJgsgazWfOu9t5fZPO5lzlIEtVzjvNmkVbkeYaRS90dJEHrIOe8NnGhqZnkBhDAf2GeuaKdV06w/w1200-h630-p-k-no-nu/%25D8%25AC%25D8%25A7%25D9%2585%25D8%25B9%25D8%25A9+%25D8%25B4%25D9%2582%25D8%25A7%25D8%25A1.png'); /* رابط الصورة */
+      background-repeat: no-repeat; /* ما نكررها */
+      background-size: contain; /* نحدد هالصورة*/
+      background-position: right center; 
+    }
+    nav {
+      background-color: #05a068;
+      color: #fff;
+      padding: 10px 20px;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 10px;
+      cursor: pointer; /* يتغير المؤشر لما نضغط */
+    }
+    section {
+      padding: 20px;
+      text-align: center;
+    }
+    footer {
+      background-color: #05a068;
+      color: #fff;
+      padding: 10px 20px;
+      text-align: center;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+    
+  </style>
+</head>
+<body>
+  <header>
+    <link rel="stylesheet" href="move.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<div class="header">
+  <div class="header">
+    <div class="social-media">
+      <a href="https://www.facebook.com/ShaqraKSU/?locale=ar_AR" target="_blank" class="social-link"><i class="fab fa-facebook"></i></a>
+      <a href="https://twitter.com/ShaqraUni?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" class="social-link"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.instagram.com/shaqra_uni/?hl=ar" target="_blank" class="social-link"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.youtube.com/channel/UCHN0hZqzsZG55Pdt9yag63Q" target="_blank" class="social-link"><i class="fab fa-youtube"></i></a>
+    </div>
+  </div>
+  
+  </header>
+  <nav>
+    <a href="#" class="nav-link" onclick="loadPage('login.html')">القبول</a>
+    <a href="#" class="nav-link" onclick="loadPage('academic_programs.html')">البرامج الأكاديمية</a>
+    <a href="#" class="nav-link" onclick="loadPage('registration.html')"> التسجيل الالكتروني</a>
+    <a href="https://www.su.edu.sa/sites/default/files/2024-01/%D8%A7%D9%84%D8%AA%D9%82%D9%88%D9%8A%D9%85%20%D8%A7%D9%84%D8%A7%D9%94%D9%83%D8%A7%D8%AF%D9%8A%D9%85%D9%8A%20%D9%84%D9%84%D9%81%D8%B5%D9%84%20%D8%A7%D9%84%D8%AF%D8%B1%D8%A7%D8%B3%D9%8A%20%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A%20%D8%A7%D9%84%D8%B9%D8%A7%D9%85%20%D8%A7%D9%84%D8%AC%D8%A7%D9%85%D8%B9%D9%8A%20%D9%A1%D9%A4%D9%A4%D9%A5%20%D9%87%D9%80_0.pdf
+    " class="nav-link" target="_blank">التقويم الجامعي</a> 
+    <a href="https://sdl.edu.sa/SDLPortal/ar/Publishers.aspx" class="nav-link" target="_blank">المكتبة الرقمية السعودية</a> 
+    <a href="#" class="nav-link" onclick="loadPage('news.html')">الأخبار</a>
+  </nav>
+  <section id="content">
+    <h2>.مرحبًا بكم في جامعة شقراء</h2>
+    <p>نحن نقدم برامج أكاديمية متنوعة ومميزة تلبي احتياجات الطلاب وتساهم في تحقيق أهدافهم الأكاديمية والمهنية</p>
+    <p>.تفضل بزيارة صفحة البرامج الأكاديمية لمزيد من المعلومات</p>
+    <h3>
+        <img src="https://www.alweeam.com.sa/y2019-y2023/wp-content/uploads/2021/04/5d985123-568f-40e8-9c5e-b963a10cf077.jpg" alt="صورة">
+    </h3>
+</section>
+
+  <footer>
+    <p>حقوق الطبع والنشر © 2024  افضل قروب بالعالم</p>
+  </footer>
+  <script>
+  
+    function loadPage(page) {
+      event.preventDefault(); 
+      fetch(page)
+        .then(response => response.text())
+        .then(html => {
+          document.getElementById('content').innerHTML = html;
+        })
+        .catch(error => console.error('', error));
+    }
+  </script>
+</body>
+</html>
